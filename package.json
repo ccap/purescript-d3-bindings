@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "d3": "^7.8.2",
+    "esbuild": "0.17.12",
+    "pscid": "2.9.3",
+    "purescript": "0.15.2",
+    "purescript-psa": "^0.8.2",
+    "spago": "^0.20.9"
+  },
+  "name": "purescript-d3-bindings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "spago build --purs-args '--censor-lib --strict'",
+    "serve": "parcel ./examples/index.html --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
